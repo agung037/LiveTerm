@@ -1,39 +1,41 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://raw.githubusercontent.com/agung037/agung037/main/README.md",
+  "title": "Agung Kurniawan Webpage",
+  "name": "Agung Kurniawan",
+  "ascii": "AGUNG",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "agung037",
+    "linkedin": "agung-kurniawan-10807310a/",
+    "twitter": "twitter",
+    "instagram": "instagram"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "email": "agungk878@gmail.com",
+  "ps1_hostname": "guest",
+  "ps1_username": "agungk.com",
+  "repo": "https://github.com/agung037/",
+  "resume_url": "https://agungk.com/files/agungcvsep.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "",
+    "patreon": ""
   },
-  "colors": {
+  "colors": { 
     "light": {
-      "background": "#FBF1C9",
-      "foreground": "#3C3836",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#7C6F64",
-      "blue": "#458588",
-      "red": "#CA2124"
-    },
-    "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
-    }
+    "background": "#272822",
+    "foreground": "#F8F8F2",
+    "yellow": "#F4BF75",
+    "green": "#A6E22E",
+    "gray": "#AE81FF",
+    "blue": "#66D9EF",
+    "red": "#F92672"
+  },
+  "dark": {
+    "background": "#272822",
+    "foreground": "#F8F8F2",
+    "yellow": "#F4BF75",
+    "green": "#A6E22E",
+    "gray": "#AE81FF",
+    "blue": "#66D9EF",
+    "red": "#F92672"
+  }
   }
 }

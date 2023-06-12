@@ -11,7 +11,7 @@ export const help = async (args: string[]): Promise<string> => {
     if (i % 7 === 0) {
       c += Object.keys(bin).sort()[i - 1] + '\n';
     } else {
-      c += Object.keys(bin).sort()[i - 1] + ' ';
+      c += Object.keys(bin).sort()[i - 1] + ', ';
     }
   }
   return `Welcome! Here are all the available commands:
@@ -44,13 +44,13 @@ export const resume = async (args: string[]): Promise<string> => {
 };
 
 // Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
-`;
-};
+// export const donate = async (args: string[]): Promise<string> => {
+//   return `thank you for your interest.
+// here are the ways you can support my work:
+// - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
+// - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
+// `;
+// };
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
@@ -141,17 +141,54 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+  █████╗  ██████╗ ██╗   ██╗███╗   ██╗ ██████╗    ██╗  ██╗
+  ██╔══██╗██╔════╝ ██║   ██║████╗  ██║██╔════╝    ██║ ██╔╝
+  ███████║██║  ███╗██║   ██║██╔██╗ ██║██║  ███╗   █████╔╝ 
+  ██╔══██║██║   ██║██║   ██║██║╚██╗██║██║   ██║   ██╔═██╗ 
+  ██║  ██║╚██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝██╗██║  ██╗
+  ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═╝
+  [FREELANCE - WEB Developer - Jakarta Indonesia]
+
+Who am I? Just your friendly neighborhood programmer, turning caffeine into code and debugging reality. I'm the master of the semicolon, the wizard of whitespace, and the conqueror of syntax errors. My mind is a maze of algorithms and my heart beats in binary. I have a black belt in googling, a PhD in stack overflow, and I can make bugs disappear faster than Houdini. When I'm not typing furiously on my keyboard, you can find me staring into the void of an infinite loop or engaging in intense debates about tabs versus spaces. So, if you need a dose of wit and a solution to your tech troubles, fear not, for I am the programmer extraordinaire, here to turn your bugs into features and your frowns into laughter!
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
+};
+
+export const project = (args?: string[]): string => {
+  return `
+  here is my project:
+
+  - BMI Calculator <u><a class="text-light-blue dark:text-dark-blue underline" href="http://bmi.agungk.com" target="_blank">bmi.agungk.com</a></u> [vue]
+  - QR Code & Bar Code Generator <u><a class="text-light-blue dark:text-dark-blue underline" href="http://bmi.agungk.com" target="_blank">qr.agungk.com</a></u> [vanilla js]
+  - Caesar Cipher <u><a class="text-light-blue dark:text-dark-blue underline" href="http://caesar.agungk.com" target="_blank">caesar.agungk.com</a></u> [vue]
+  - Currency Converter <u><a class="text-light-blue dark:text-dark-blue underline" href="http://currency.agungk.com" target="_blank">currency.agungk.com</a></u> [react]
+  - Metronome <u><a class="text-light-blue dark:text-dark-blue underline" href="http://metronome.agungk.com" target="_blank">metronome.agungk.com</a></u> [react]
+  - Morse  <u><a class="text-light-blue dark:text-dark-blue underline" href="http://morse.agungk.com" target="_blank">morse.agungk.com</a></u> [vue]
+  - Notes  <u><a class="text-light-blue dark:text-dark-blue underline" href="http://notes.agungk.com" target="_blank">notes.agungk.com</a></u> [vanilla js]
+  - Picker  <u><a class="text-light-blue dark:text-dark-blue underline" href="http://picker.agungk.com" target="_blank">picker.agungk.com</a></u> [react]
+  - Todolist  <u><a class="text-light-blue dark:text-dark-blue underline" href="http://todolist.agungk.com" target="_blank">todolist.agungk.com</a></u> [vanilla js]
+  - Weather  <u><a class="text-light-blue dark:text-dark-blue underline" href="http://weather.agungk.com" target="_blank">weather.agungk.com</a></u> [react]
+  
+  `;
+};
+
+export const certificate = (args?: string[]): string => {
+  return `
+      
+    - 2021, [Python Institute] Associate in Python Programming <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.credly.com/badges/edc3adf1-6823-4473-9b9f-de4bfb547cc9" target="_blank">view</a></u>
+    - 2021, [HarvardX] CS50 Intro to CS <u><a class="text-light-blue dark:text-dark-blue underline" href="https://courses.edx.org/certificates/b47a46ba5bb24b7daae4a6ac8c569f28" target="_blank">view</a></u>
+    - 2022, [HarvardX] CS50 Python <u><a class="text-light-blue dark:text-dark-blue underline" href="https://certificates.cs50.io/72bafbaf-709c-417a-831a-634f679bc3c6.pdf?size=letter" target="_blank">view</a></u>
+    - 2021, [HarvardX] CS50 Web <u><a class="text-light-blue dark:text-dark-blue underline" href="https://courses.edx.org/certificates/71f0e5950c1747cbba2a84bc50125928" target="_blank">view</a></u>
+    - 2022, [Dicoding] Create App Using React <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.dicoding.com/certificates/72ZDOJ2RVXYW" target="_blank">view</a></u>
+    - 2022, [Dicoding] Dev Ops Basic <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.dicoding.com/certificates/07Z6GWD3YXQR" target="_blank">view</a></u>
+    - 2022, [Univeristy of Helsinki] Fullstack Open <u><a class="text-light-blue dark:text-dark-blue underline" href="/files/helsinki1.jpeg" target="_blank">view</a></u>
+    - 2022, [Kaggle] Intro to Machine Learning <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.kaggle.com/learn/certification/agungk878/intro-to-machine-learning" target="_blank">view</a></u>
+    - 2022, [IBM] Introduction to Data Analytics <u><a class="text-light-blue dark:text-dark-blue underline" href="https://coursera.org/share/63d68bee88b5588273e16b61b54b81a0" target="_blank">view</a></u>
+    - 2022, [Dicoding] Jaringan Komputer untuk Pemula <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.dicoding.com/certificates/72ZD9YNDVPYW" target="_blank">view</a></u>
+    - 2020, [Hacktiv8] Web App Development Online <u><a class="text-light-blue dark:text-dark-blue underline" href="https://agungk.com/files/hacktiv8.pdf" target="_blank">view</a></u>
+    
+    `;
 };
