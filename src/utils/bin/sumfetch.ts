@@ -32,7 +32,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
 ▐▓                                 ▐▓       -----------
 ▐▓        > agungk.com             ▐▓ 
 ▐▓                                 ▐▓        CONTACT       
-▐▓                                 ▐▓       ✆ <u><a href="/">6288992266037</a></u>
+▐▓                                 ▐▓       ✆ <u><a href="https://kirimwa.id/chat-agung-kurniawan">6288992266037</a></u>
 ▐▓                                 ▐▓        <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
 ▐▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓        <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
    ▓▓      ▐▓▓    ▓▓    ▐▓▓     ▓▓           <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>
