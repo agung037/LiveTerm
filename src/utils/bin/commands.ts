@@ -149,20 +149,15 @@ export const banner = (args?: string[]): string => {
   ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═╝
   [FREELANCE - WEB Developer - Jakarta Indonesia]
 
-Who am I? Just your friendly neighborhood programmer, 
-turning caffeine into code and debugging reality. 
-I'm the master of the semicolon, the wizard of whitespace, 
-and the conqueror of syntax errors. 
-My mind is a maze of algorithms and my heart beats in binary. 
-I have a black belt in googling, a PhD in stack overflow, 
-and I can make bugs disappear faster than Houdini. 
-When I'm not typing furiously on my keyboard,  
-you can find me staring into the void of an infinite loop or engaging in intense debates about tabs versus spaces.
-So, if you need a dose of wit and a solution to your tech troubles, fear not, for I am the programmer extraordinaire, 
-here to turn your bugs into features and your frowns into laughter!
+  I'm just a programmer who's passionate about coding and problem-solving. I rely on my trusty caffeine companion to turn lines of text into functional software. While I may dabble in semicolons, whitespace, and occasionally wrestle with syntax errors, I'm far from being a wizard.
+
+  My mind is filled with algorithms, and I often find myself lost in the intricacies of code. I've spent my fair share of time searching on Google and reading through Stack Overflow threads. Bugs tend to disappear eventually, with a bit of patience.
+  
+  When I'm not typing away at my keyboard, I sometimes get lost in infinite loops, and I've been known to engage in friendly debates about coding styles. If you ever need help with your tech challenges, I'll do my best to assist you – no promises on turning frowns into laughter, though!
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
+Type 'project' to display some of my 'public' project.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
 };
