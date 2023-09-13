@@ -194,7 +194,7 @@ export const certificate = (args?: string[]): string => {
     - 2022, [Kaggle] Intro to Machine Learning <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.kaggle.com/learn/certification/agungk878/intro-to-machine-learning" target="_blank">view</a></u>
     - 2022, [IBM] Introduction to Data Analytics <u><a class="text-light-blue dark:text-dark-blue underline" href="https://coursera.org/share/63d68bee88b5588273e16b61b54b81a0" target="_blank">view</a></u>
     - 2022, [Dicoding] Jaringan Komputer untuk Pemula <u><a class="text-light-blue dark:text-dark-blue underline" href="https://www.dicoding.com/certificates/72ZD9YNDVPYW" target="_blank">view</a></u>
-    - 2020, [Hacktiv8] Web App Development Online <u><a class="text-light-blue dark:text-dark-blue underline" href="https://agungk.com/files/hacktiv8.pdf" target="_blank">view</a></u>
+    - 2020, [Hacktiv8] Web App Development Online <u><a class="text-light-blue dark:text-dark-blue underline" href="https://binusianorg-my.sharepoint.com/personal/agung_kurniawan003_binus_ac_id/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fagung%5Fkurniawan003%5Fbinus%5Fac%5Fid%2FDocuments%2FSertifikat%2FONL%2DWADO%2D002%2D0006%5FAgung%2DKurniawan%20%281%29%2Epdf&parent=%2Fpersonal%2Fagung%5Fkurniawan003%5Fbinus%5Fac%5Fid%2FDocuments%2FSertifikat&ga=1" target="_blank">view</a></u>
     
     `;
 };
