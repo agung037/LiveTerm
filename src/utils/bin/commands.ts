@@ -172,7 +172,7 @@ export const project = (args?: string[]): string => {
   here is my project:
 
   - BMI Calculator <u><a class="text-light-blue dark:text-dark-blue underline" href="http://bmi.agungk.com" target="_blank">bmi.agungk.com</a></u> [vue]
-  - QR Code & Bar Code Generator <u><a class="text-light-blue dark:text-dark-blue underline" href="http://bmi.agungk.com" target="_blank">qr.agungk.com</a></u> [vanilla js]
+  - QR Code & Bar Code Generator <u><a class="text-light-blue dark:text-dark-blue underline" href="http://qr.agungk.com" target="_blank">qr.agungk.com</a></u> [vanilla js]
   - Caesar Cipher <u><a class="text-light-blue dark:text-dark-blue underline" href="http://caesar.agungk.com" target="_blank">caesar.agungk.com</a></u> [vue]
   - Currency Converter <u><a class="text-light-blue dark:text-dark-blue underline" href="http://currency.agungk.com" target="_blank">currency.agungk.com</a></u> [react]
   - Metronome <u><a class="text-light-blue dark:text-dark-blue underline" href="http://metronome.agungk.com" target="_blank">metronome.agungk.com</a></u> [react]
