@@ -147,13 +147,13 @@ export const banner = (args?: string[]): string => {
   ██╔══██║██║   ██║██║   ██║██║╚██╗██║██║   ██║   ██╔═██╗ 
   ██║  ██║╚██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝██╗██║  ██╗
   ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═╝
-  [FREELANCE - WEB Developer - Jakarta Indonesia]
+I'm University Student - WEB Developer - Goverment Worker
 
-  I'm just a programmer who's passionate about coding and problem-solving. I rely on my trusty caffeine companion to turn lines of text into functional software. While I may dabble in semicolons, whitespace, and occasionally wrestle with syntax errors, I'm far from being a wizard.
+I'm just a programmer who's passionate about coding and problem-solving. I rely on my trusty caffeine companion to turn lines of text into functional software. While I may dabble in semicolons, whitespace, and occasionally wrestle with syntax errors, I'm far from being a wizard.
 
-  My mind is filled with algorithms, and I often find myself lost in the intricacies of code. I've spent my fair share of time searching on Google and reading through Stack Overflow threads. Bugs tend to disappear eventually, with a bit of patience.
+My mind is filled with algorithms, and I often find myself lost in the intricacies of code. I've spent my fair share of time searching on Google and reading through Stack Overflow threads. Bugs tend to disappear eventually, with a bit of patience.
   
-  When I'm not typing away at my keyboard, I sometimes get lost in infinite loops, and I've been known to engage in friendly debates about coding styles. If you ever need help with your tech challenges, I'll do my best to assist you – no promises on turning frowns into laughter, though!
+When I'm not typing away at my keyboard, I sometimes get lost in infinite loops, and I've been known to engage in friendly debates about coding styles. If you ever need help with your tech challenges, I'll do my best to assist you – no promises on turning frowns into laughter, though!
 
 .............................................. 
 Type 'help' to see the list of available commands.
