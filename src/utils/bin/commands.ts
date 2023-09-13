@@ -155,6 +155,7 @@ export const banner = (args?: string[]): string => {
   
   When I'm not typing away at my keyboard, I sometimes get lost in infinite loops, and I've been known to engage in friendly debates about coding styles. If you ever need help with your tech challenges, I'll do my best to assist you – no promises on turning frowns into laughter, though!
 
+.............................................. 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'project' to display some of my 'public' project.
